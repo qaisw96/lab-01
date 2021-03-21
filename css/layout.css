@@ -1,0 +1,64 @@
+
+.bor {
+    border: 1px solid blue;
+    box-sizing: border-box;
+  }
+ 
+header {
+    height: 75px;
+    background-color: gold;
+}
+
+main #b {
+    height: 150px;
+    background-color: gray;
+
+}
+
+
+main #cdContainer #c {
+    height: 125px;
+    background-color: green;
+}
+
+main #cdContainer #d {
+    height: 125px;
+    background-color: yellowgreen;
+}
+
+
+#efghContainer #ef #e {
+    float: left;
+    background-color: wheat;
+    width: 240px;
+    height: 250px;
+}
+
+#efghContainer #ef #f {
+    float: right;
+    background-color: rgb(218, 184, 123);
+    width: 240px;
+    height: 250px;
+}
+
+#efghContainer #gh #g {
+    float: right;
+    background-color: rgb(196, 123, 218);
+    width: 240px;
+    height: 250px;
+}
+
+#efghContainer #gh #h {
+    float: right;
+    background-color: rgb(110, 75, 121);
+    width: 240px;
+    height: 250px;
+}
+
+
+footer  {
+    clear: both;
+    height: 80px;
+    background:rgb(39, 68, 83);
+    
+ }
