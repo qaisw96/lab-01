@@ -1,0 +1,50 @@
+body, html {
+    width: 480px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+@media screen and (min-width:768px)  {
+    body {
+      background-color: lightgreen;
+      width: 960px ;
+    }
+
+
+    header {
+        width: 960px;
+    }
+
+    #b {
+        width: 200px;
+        height: 600px;
+        float: left;
+    }
+
+  /*   #right {
+        float: right;
+    } */
+
+    #c,  #d {
+        display: inline-block;
+        width: 378px;
+        height: 200px;
+        
+    }
+
+
+    
+    #ef, #gh {
+        clear: both;
+        display: inline;
+
+/*         width: 10%;
+ */    }
+    
+   
+    
+
+
+}
