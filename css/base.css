@@ -13,19 +13,15 @@ body, html {
     }
 
 
-    header {
-        width: 960px;
-    }
-
     #b {
         width: 200px;
         height: 600px;
         float: left;
     }
 
-  /*   #right {
+    #right {
         float: right;
-    } */
+    }
 
     #c,  #d {
         display: inline-block;
