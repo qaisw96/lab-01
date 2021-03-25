@@ -1,52 +1,16 @@
-body, html {
-    width: 480px;
+.bor {
+    border: 1px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
     text-align: center;
-    vertical-align: middle;
-
-}
-
-
-@media screen and (min-width:768px)  {
-    body {
-      width: 960px ;
-    }
-
-
-    #b {
-        width: 200px;
-        height: 600px;
-        float: left;
-    }
-
-    #right {
-        float: right;
-    }
-
-
-    #cdContainer{
-    }
-
-    #c,  #d {
-        float: right;
-        display: inline-block;
-        width: 378px;
-        height: 200px;
-        
-    }
-
-
-    
-    #ef, #gh {
-        width: 180px;
-        clear: both;
-        display: inline;
-     
-     }
-
-
-    
-   
-    
-
-
-}
+  }
+body {
+    background-color: rgba(109, 110, 52, 0.418);
+    height: 100vh;
+    width: 360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 250px 250px 80px;
+  }
